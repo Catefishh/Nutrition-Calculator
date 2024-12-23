@@ -130,9 +130,11 @@ int main()
     printf("TDEE: %.2f kcal\n", TDEE);
     printf("BMI: %.2f\n", BMI);
     printf("-------------------------\n");
+    printf("Recommended Macronutrients (40/30/30 split):\n");
     printf("Carbs: %.2f g\n", carbs);
     printf("Protein: %.2f g\n", protein);
     printf("Fat: %.2f g\n", fat);
+    getchar();
 
     return 0;
 }
